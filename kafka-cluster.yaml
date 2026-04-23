@@ -1,7 +1,8 @@
 apiVersion: kafka.strimzi.io/v1
 kind: Kafka
 metadata:
-  name: kafka-cluster
+  name: kafka-cluster-2
+  namespace: emil
 spec:
   kafka:
     version: 4.2.0
